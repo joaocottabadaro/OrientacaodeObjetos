@@ -9,6 +9,9 @@ package auladia31;
  *
  * @author ice
  */
+/**
+ * @author ice
+ */
 public class Cachorro {
 
    
@@ -29,6 +32,10 @@ public class Cachorro {
         this.quantidadeCachorro++;
     }
     
+   /**
+    * esse metodo esta vendendo cachorro
+    * @return 
+    */
     public Cachorro venderCachorro()
     {
         this.quantidadeCachorro--;
